@@ -4,7 +4,8 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 # cross check CI
 
-trigger: none
+trigger:
+- master
 
 pool:
   vmImage: ubuntu-latest
